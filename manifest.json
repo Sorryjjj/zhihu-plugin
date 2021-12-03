@@ -1,0 +1,12 @@
+{
+  "name": "my plugin",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "zhihu",
+  "content_scripts": [
+    {
+      "matches": ["https://www.zhihu.com/*"],
+      "js": ["remove-video.js"]
+    }
+  ]
+}
