@@ -37,6 +37,4 @@ const run = () => {
 
 setInterval(() => {
     run()
-    console.log('run')
-
 }, 1000);
